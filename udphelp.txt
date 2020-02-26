@@ -1,0 +1,64 @@
+500,ike-scan
+500,ike-probe
+500,ike-crack
+1434,SQL Enumeration
+111,rpcdump.py
+111,rpcinfo
+123,ntpq
+123,ntpdc -c monlist IP_ADDRESS
+123,ntpdc -c sysinfo IP_ADDRESS
+123,NTP Amplification - https://github.com/BobuSumisu/amplificationtester/blob/master/amplificationtester.py
+123,ntp-info - http://nmap.org/nsedoc/scripts/ntp-info.html 
+161,Default community string - public, private, cisco etc. 
+161,MIB Enumeration - Windows NT 1.3.6.1.2.1.1.5 Hostnames & 1.3.6.1.4.1.77.1.4.2 Domain Name & 1.3.6.1.4.1.77.1.2.25 Usernames & 1.3.6.1.4.1.77.1.2.3.1.1 Running Services & 1.3.6.1.4.1.77.1.2.27 Share Information
+161,Snmpwalk
+161,snmpwalk -v <Version> -c <Community string> <IP>
+161,snmp-check
+161,snmpget -v2c -c <Community String> <IP> 1.3.6.1.4.1.890.1.2.1.2.6.0
+161,snmpwalk -v2c -c <Community String> <IP> 1.3.6.1.4.1.890.1.2.1.2
+161,NMap NSE Script
+161,Snmp-sysdescr, http://nmap.org/nsedoc/scripts/snmp-sysdescr.html 
+161,SNMP Bruteforce
+161,onesixytone -c SNMP.wordlist <IP>
+161,Examine SNMP Configuration files - snmp.conf & snmpd.conf & snmp-config.xml
+6502,netop
+69,tftp
+69,TFTP Enumeration
+69,tftp ip_address PUT local_file
+69,tftp ip_address GET conf.txt (or other files)
+69,Solarwinds TFTP server
+69,tftp – i <IP> GET /etc/passwd (old Solaris)
+69,TFTP Bruteforcing
+69,TFTP bruteforcer
+69,Cisco-Torch
+1604,citrix
+1604,nmap -sU --script=citrix-enum-servers -p 1604 <host> - https://nmap.org/nsedoc/scripts/citrix-enum-servers.html
+1604,nmap -sU --script=citrix-enum-apps -p 1604 <host> - https://nmap.org/nsedoc/scripts/citrix-enum-apps.html
+7,echo services checks
+19,Chargen Amplificaiton - https://github.com/BobuSumisu/amplificationtester/blob/master/amplificationtester.py
+11,systat
+13,daytime / time
+53,DNS Amplification - https://github.com/BobuSumisu/amplificationtester/blob/master/amplificationtester.py
+53,Fingerprint server/ service
+53,host [-aCdlnrTwv ] [-c class ] [-N ndots ] [-R number ] [-t type ] [-W wait ] name [server ] -v verbose format -t (query type) Allows a user to specify a record type i.e. A, NS, or PTR. -a Same as –t ANY. -l Zone transfer (if allowed). -f Save to a specified filename.
+53,nslookup [ -option ... ] [ host-to-find | - [ server ]]
+53,dig [ @server ] [-b address ] [-c class ] [-f filename ] [-k filename ] [-p port# ] [-t type ] [-x addr ] [-y name:key ] [-4 ] [-6 ] [name ] [type ] [class ] [queryopt... ]
+53,whois-h Use the named host to resolve the query -a Use ARIN to resolve the query -r Use RIPE to resolve the query -p Use APNIC to resolve the query -Q Perform a quick lookup
+53,DNS Enumeration
+53,perl BiLE.pl [website] [project_name]
+53,perl BiLE-weigh.pl [website] [input file]
+53,perl vet-IPrange.pl [input file] [true domain file] [output file] <range>
+53,perl vet-mx.pl [input file] [true domain file] [output file]
+53,perl exp-tld.pl [input file] [output file]
+53,perl jarf-dnsbrute [domain_name] (brutelevel) [file_with_names]
+53,perl qtrace.pl [ip_address_file] [output_file]
+53,perl jarf-rev [subnetblock] [nameserver]
+53,txdns -rt -t domain_name
+53,txdns -x 50 -bb domain_name
+53,txdns --verbose -fm wordlist.dic --server ip_address -rr SOA domain_name -h c: \hostlist.txt
+53,Nmap NSE Scripts - dns-random-srcport - dns-random-txid - dns-recursion - dns-zone-transfer
+137,NBTStat
+177,xdmcp
+5405,net-support
+5353,mdns-zeroconf
+2123,gtpv1
