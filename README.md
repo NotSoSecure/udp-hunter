@@ -95,3 +95,6 @@ The UDP probes are mainly taken from [amap](https://github.com/vanhauser-thc/THC
 
 # Read More:
 * [UDP Hunter - An Open Source Network Assessment Tool](https://www.gadhiyasavan.com/2020/02/udp-hunter.html)
+* [Setup Steps for UDP Hunter](https://asciinema.org/a/305052)
+* [Sample Execution of UDP Hunter](https://asciinema.org/a/305053)
+
